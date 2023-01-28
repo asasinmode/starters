@@ -23,7 +23,7 @@ Besides packages listed above this template includes
 ### 1. copy the repository
 
 ```sh
-npx degit git@github.com:asasinmode/starter-vue.git my-project
+npx degit git@github.com:asasinmode/starters/vue my-project
 ```
 
 ### 2. before installing dependencies
