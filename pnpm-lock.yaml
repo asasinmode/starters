@@ -6,9 +6,11 @@ importers:
     specifiers:
       '@asasinmode/eslint-config': ^0.1.6
       eslint: ^8.32.0
+      unocss: ^0.49.0
     devDependencies:
       '@asasinmode/eslint-config': 0.1.6_7uibuqfxkfaozanbtbziikiqje
       eslint: 8.32.0
+      unocss: 0.49.1_vite@4.0.4
 
   nuxt:
     specifiers:
