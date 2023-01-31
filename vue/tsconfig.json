@@ -1,25 +1,33 @@
 {
   "compilerOptions": {
-    "baseUrl": ".",
-    "module": "ESNext",
+    /* Language and Environment */
     "target": "ESNext",
     "lib": ["DOM", "ESNext"],
-    "strict": true,
     "jsx": "preserve",
-    "esModuleInterop": true,
-    "skipLibCheck": true,
+
+    /* Modules */
+    "module": "ESNext",
     "moduleResolution": "node",
-    "resolveJsonModule": true,
-    "noUnusedLocals": true,
-    "strictNullChecks": true,
-    "allowJs": true,
-    "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".", 
     "types": [
       "vite/client"
     ],
     "paths": {
       "@/*": ["src/*"]
-    }
+    },
+  
+    /* Interop Constraints */
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+
+    /* Type Checking */
+    "strict": true,
+    "strictNullChecks": true,
+    "noUnusedLocals": true,
+
+    /* Completeness */
+    "skipDefaultLibCheck": true,   
+    "skipLibCheck": true,
   },
   "exclude": ["dist", "node_modules"]
 }

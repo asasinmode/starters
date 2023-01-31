@@ -1,7 +1,7 @@
 {
   "name": "vue",
   "private": true,
-  "packageManager": "pnpm@7.26.1",
+  "packageManager": "pnpm@7.26.2",
   "description": "Vue 3 starter for new projects",
   "author": "asasinmode",
   "license": "MIT",
@@ -18,7 +18,7 @@
     "vue-router": "^4.1.6"
   },
   "devDependencies": {
-    "@asasinmode/eslint-config": "^0.2.1",
+    "@asasinmode/eslint-config": "^0.3.0",
     "@iconify-json/logos": "^1.1.22",
     "@iconify-json/mdi": "^1.1.44",
     "@types/node": "^18.11.18",

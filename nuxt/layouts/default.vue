@@ -1,5 +1,5 @@
 <template>
-  <TheNavigation />
-  <slot />
-  <TheFooter />
+	<TheNavigation />
+	<slot />
+	<TheFooter />
 </template>

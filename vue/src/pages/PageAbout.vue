@@ -10,9 +10,9 @@
 
 <style scoped>
 h2 {
-  font-size: clamp(2.5rem, 6vw, 8rem);
+	font-size: clamp(2.5rem, 6vw, 8rem);
 }
 button:focus-visible{
-  outline: none;
+	outline: none;
 }
 </style>

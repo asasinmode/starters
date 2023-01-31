@@ -1,7 +1,7 @@
 <script setup lang="ts">
 const { status = 500, message = 'something went wrong 😟' } = defineProps<{
-  status?: number
-  message?: string
+	status?: number;
+	message?: string;
 }>();
 
 const backTarget: string = history.state.back ?? '/';

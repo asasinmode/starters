@@ -11,6 +11,7 @@
     "html",
     "markdown",
     "json"
- ],
- "css.lint.unknownAtRules": "ignore"
+  ],
+  "css.lint.unknownAtRules": "ignore",
+  "editor.insertSpaces": false
 }
