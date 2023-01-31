@@ -14,7 +14,7 @@ export default defineConfig({
     presetWebFonts({
       provider: 'bunny',
       fonts: {
-        sans: 'Inter',
+        sans: 'Roboto',
       },
     }),
   ],
