@@ -10,7 +10,7 @@ This is a [NodeJS](https://nodejs.org/en/) project starter template.
 
 ## get started
 
-This project can be compiled to a single **javascript** file with **esbuild**. Besides that, **tsx** is used for running local development server.
+This project can be compiled to a single **javascript** file (targets [ESM](https://esbuild.github.io/api/#format) by default) with **esbuild**. Besides that, **tsx** is used for running local development server.
 
 Script examples below assume you are executing them inside the monorepo.
 
