@@ -1,7 +1,7 @@
 {
   "name": "asasinmode-starters",
   "version": "1.0.0",
-  "packageManager": "pnpm@7.26.2",
+  "packageManager": "pnpm@7.27.0",
   "author": "asasinmode",
   "license": "MIT",
   "devDependencies": {

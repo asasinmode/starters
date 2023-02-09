@@ -2,7 +2,7 @@
   "name": "monorepo",
   "version": "1.0.0",
   "private": "true",
-  "packageManager": "pnpm@7.26.1",
+  "packageManager": "pnpm@7.27.0",
   "author": "asasinmode <skin9470@gmail.com> (https://github.com/asasinmode/)",
   "description": "PNPM monorepo starter for new projects",
   "license": "MIT",
