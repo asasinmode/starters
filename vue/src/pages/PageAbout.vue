@@ -1,11 +1,11 @@
 <template>
-  <main class="relative">
-    <DependencyIconsCircle />
-    <h1 class="text-3xl">
-      <a href="https://vuejs.org/" target="_blank" class="text-link">vue 3</a>
-      starter
-    </h1>
-  </main>
+	<main class="relative">
+		<DependencyIconsCircle />
+		<h1 class="text-3xl">
+			<a href="https://vuejs.org/" target="_blank" class="text-link">vue 3</a>
+			starter
+		</h1>
+	</main>
 </template>
 
 <style scoped>

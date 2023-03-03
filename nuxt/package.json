@@ -13,15 +13,15 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "@asasinmode/eslint-config": "^0.3.1",
-    "@iconify-json/logos": "^1.1.22",
-    "@iconify-json/mdi": "^1.1.47",
-    "@pinia/nuxt": "^0.4.6",
-    "@unocss/nuxt": "^0.49.4",
-    "@unocss/reset": "^0.49.4",
-    "eslint": "^8.33.0",
-    "nuxt": "^3.2.0",
-    "unocss": "^0.49.4"
+    "@asasinmode/eslint-config": "^0.3.6",
+    "@iconify-json/logos": "^1.1.23",
+    "@iconify-json/mdi": "^1.1.49",
+    "@pinia/nuxt": "^0.4.7",
+    "@unocss/nuxt": "^0.50.3",
+    "@unocss/reset": "^0.50.3",
+    "eslint": "^8.35.0",
+    "nuxt": "^3.2.3",
+    "unocss": "^0.50.3"
   },
   "eslintConfig": {
     "extends": "@asasinmode"

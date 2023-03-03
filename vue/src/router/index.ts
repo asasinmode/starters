@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import HomePage from '../pages/PageHome.vue';
-import ErrorPage from '@/pages/PageError.vue';
-import LayoutError from '@/layouts/LayoutError.vue';
+import HomePage from '~/pages/PageHome.vue';
+import ErrorPage from '~/pages/PageError.vue';
+import LayoutError from '~/layouts/LayoutError.vue';
 
 export const router = createRouter({
 	history: createWebHistory(import.meta.env.BASE_URL),
@@ -23,7 +23,7 @@ export const router = createRouter({
 		{
 			path: '/about',
 			name: 'about',
-			component: () => import('@/pages/PageAbout.vue'),
+			component: () => import('~/pages/PageAbout.vue'),
 			meta: {
 				title: 'about',
 			},
