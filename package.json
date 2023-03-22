@@ -1,12 +1,12 @@
 {
   "name": "asasinmode-starters",
   "version": "1.0.0",
-  "packageManager": "pnpm@7.27.0",
+  "packageManager": "pnpm@7.30.0",
   "author": "asasinmode",
   "license": "MIT",
   "devDependencies": {
-    "@asasinmode/eslint-config": "^0.3.6",
-    "eslint": "^8.35.0"
+    "@asasinmode/eslint-config": "^0.4.0",
+    "eslint": "^8.36.0"
   },
   "eslintConfig": {
     "extends": "@asasinmode"
