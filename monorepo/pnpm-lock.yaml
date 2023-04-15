@@ -4,11 +4,11 @@ importers:
 
   .:
     specifiers:
-      '@asasinmode/eslint-config': ^0.4.1
+      '@asasinmode/eslint-config': ^0.4.2
       eslint: ^8.38.0
       typescript: ^5.0.4
     devDependencies:
-      '@asasinmode/eslint-config': 0.4.1_r2lodvvlfhiazvelvqy6vshkgq
+      '@asasinmode/eslint-config': 0.4.2_r2lodvvlfhiazvelvqy6vshkgq
       eslint: 8.38.0
       typescript: 5.0.4
 
@@ -30,8 +30,8 @@ importers:
 
 packages:
 
-  /@asasinmode/eslint-config/0.4.1_r2lodvvlfhiazvelvqy6vshkgq:
-    resolution: {integrity: sha512-CsDEj9blg4pYSjmBxkDQvjFFdYqd2j525+55tOcZwISf+fBO/SJFIHZOaQDbeLoX5kClIdg037B341muYJag5A==}
+  /@asasinmode/eslint-config/0.4.2_r2lodvvlfhiazvelvqy6vshkgq:
+    resolution: {integrity: sha512-U2e2ny2lyaxHlPaYQXXQZS0M6B99w4F04fk0ZHiiRCavfXym7990DVv3cJfJNfcbjVLGVMm3gy2yWGIQgcEUMw==}
     peerDependencies:
       eslint: ^8.36.0
     dependencies:

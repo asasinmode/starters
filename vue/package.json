@@ -18,7 +18,7 @@
     "vue-router": "^4.1.6"
   },
   "devDependencies": {
-    "@asasinmode/eslint-config": "^0.4.1",
+    "@asasinmode/eslint-config": "^0.4.2",
     "@iconify-json/logos": "^1.1.24",
     "@iconify-json/mdi": "^1.1.50",
     "@types/node": "^18.15.11",
