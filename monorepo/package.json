@@ -7,9 +7,9 @@
   "description": "PNPM monorepo starter for new projects",
   "license": "MIT",
   "devDependencies": {
-    "@asasinmode/eslint-config": "^0.4.0",
-    "eslint": "^8.36.0",
-    "typescript": "^5.0.2"
+    "@asasinmode/eslint-config": "^0.4.1",
+    "eslint": "^8.38.0",
+    "typescript": "^5.0.4"
   },
   "eslintConfig": {
     "extends": "@asasinmode"

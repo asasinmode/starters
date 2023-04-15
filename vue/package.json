@@ -1,7 +1,7 @@
 {
   "name": "vue",
   "private": true,
-  "packageManager": "pnpm@7.30.0",
+  "packageManager": "pnpm@8.2.0",
   "description": "Vue 3 starter for new projects",
   "author": "asasinmode",
   "license": "MIT",
@@ -13,21 +13,21 @@
     "lint:fix": "eslint . --fix"
   },
   "dependencies": {
-    "pinia": "^2.0.33",
+    "pinia": "^2.0.34",
     "vue": "^3.2.47",
     "vue-router": "^4.1.6"
   },
   "devDependencies": {
-    "@asasinmode/eslint-config": "^0.4.0",
-    "@iconify-json/logos": "^1.1.23",
+    "@asasinmode/eslint-config": "^0.4.1",
+    "@iconify-json/logos": "^1.1.24",
     "@iconify-json/mdi": "^1.1.50",
-    "@types/node": "^18.15.5",
-    "@unocss/reset": "^0.50.6",
+    "@types/node": "^18.15.11",
+    "@unocss/reset": "^0.51.4",
     "@vitejs/plugin-vue": "4.1.0",
-    "eslint": "^8.36.0",
-    "typescript": "^5.0.2",
-    "unocss": "^0.50.6",
-    "unplugin-auto-import": "^0.15.1",
+    "eslint": "^8.38.0",
+    "typescript": "^5.0.4",
+    "unocss": "^0.51.4",
+    "unplugin-auto-import": "^0.15.3",
     "unplugin-vue-components": "^0.24.1",
     "vite": "^4.2.1"
   },
