@@ -5,8 +5,8 @@ importers:
   .:
     devDependencies:
       '@asasinmode/eslint-config':
-        specifier: ^0.4.2
-        version: 0.4.2(eslint-plugin-n@15.7.0)(eslint-plugin-promise@6.1.1)(eslint@8.38.0)(typescript@5.0.4)
+        specifier: ^0.4.4
+        version: 0.4.4(eslint-plugin-n@15.7.0)(eslint-plugin-promise@6.1.1)(eslint@8.38.0)(typescript@5.0.4)
       eslint:
         specifier: ^8.38.0
         version: 8.38.0
@@ -14,8 +14,8 @@ importers:
   monorepo:
     devDependencies:
       '@asasinmode/eslint-config':
-        specifier: ^0.4.2
-        version: 0.4.2(eslint-plugin-n@15.7.0)(eslint-plugin-promise@6.1.1)(eslint@8.38.0)(typescript@5.0.4)
+        specifier: ^0.4.4
+        version: 0.4.4(eslint-plugin-n@15.7.0)(eslint-plugin-promise@6.1.1)(eslint@8.38.0)(typescript@5.0.4)
       eslint:
         specifier: ^8.38.0
         version: 8.38.0
@@ -26,8 +26,8 @@ importers:
   nuxt:
     devDependencies:
       '@asasinmode/eslint-config':
-        specifier: ^0.4.2
-        version: 0.4.2(eslint-plugin-n@15.7.0)(eslint-plugin-promise@6.1.1)(eslint@8.38.0)(typescript@5.0.4)
+        specifier: ^0.4.4
+        version: 0.4.4(eslint-plugin-n@15.7.0)(eslint-plugin-promise@6.1.1)(eslint@8.38.0)(typescript@5.0.4)
       '@iconify-json/logos':
         specifier: ^1.1.24
         version: 1.1.24
@@ -66,8 +66,8 @@ importers:
         version: 4.1.6(vue@3.2.47)
     devDependencies:
       '@asasinmode/eslint-config':
-        specifier: ^0.4.2
-        version: 0.4.2(eslint-plugin-n@15.7.0)(eslint-plugin-promise@6.1.1)(eslint@8.38.0)(typescript@5.0.4)
+        specifier: ^0.4.4
+        version: 0.4.4(eslint-plugin-n@15.7.0)(eslint-plugin-promise@6.1.1)(eslint@8.38.0)(typescript@5.0.4)
       '@iconify-json/logos':
         specifier: ^1.1.24
         version: 1.1.24
@@ -127,10 +127,10 @@ packages:
     resolution: {integrity: sha512-vy9fM3pIxZmX07dL+VX1aZe7ynZ+YyB0jY+jE6r3hOK6GNY2t6W8rzpFC4tgpbXUYABkFQwgJq2XYXlxbXAI0g==}
     dev: true
 
-  /@asasinmode/eslint-config@0.4.2(eslint-plugin-n@15.7.0)(eslint-plugin-promise@6.1.1)(eslint@8.38.0)(typescript@5.0.4):
-    resolution: {integrity: sha512-U2e2ny2lyaxHlPaYQXXQZS0M6B99w4F04fk0ZHiiRCavfXym7990DVv3cJfJNfcbjVLGVMm3gy2yWGIQgcEUMw==}
+  /@asasinmode/eslint-config@0.4.4(eslint-plugin-n@15.7.0)(eslint-plugin-promise@6.1.1)(eslint@8.38.0)(typescript@5.0.4):
+    resolution: {integrity: sha512-e+40bWIJN2IhCXyRDyzVdKRwrxmvDj389V1fEDE5kSmQeAL7730JXK+KSfCxVbD110+12fxh6psGXT3ooiYkUQ==}
     peerDependencies:
-      eslint: ^8.36.0
+      eslint: ^8.38.0
     dependencies:
       '@typescript-eslint/eslint-plugin': 5.58.0(@typescript-eslint/parser@5.58.0)(eslint@8.38.0)(typescript@5.0.4)
       '@typescript-eslint/parser': 5.58.0(eslint@8.38.0)(typescript@5.0.4)
