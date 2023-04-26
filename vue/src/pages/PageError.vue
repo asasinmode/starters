@@ -1,8 +1,14 @@
 <script setup lang="ts">
-const { status = 500, message = 'something went wrong 😟' } = defineProps<{
-	status?: number;
-	message?: string;
-}>();
+withDefaults(
+	defineProps<{
+		status?: number;
+		message?: string;
+	}>(),
+	{
+		status: 500,
+		message: 'something went wrong 😟',
+	}
+);
 
 const backTarget: string = history.state.back ?? '/';
 </script>
@@ -12,10 +18,10 @@ const backTarget: string = history.state.back ?? '/';
 		<h1 class="text-6xl font-bold">
 			{{ status }}
 		</h1>
-		<h2 class="text-3xl text-center">
+		<h2 class="text-center text-3xl">
 			{{ message }}
 		</h2>
-		<RouterLink :to="backTarget" class="text-link text-xl">
+		<RouterLink :to="backTarget" class="text-xl text-link">
 			go back
 		</RouterLink>
 	</main>

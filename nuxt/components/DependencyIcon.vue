@@ -21,19 +21,19 @@ function iconStyle(index: number): StyleValue {
 
 const glob = import.meta.glob('@/assets/*.svg', { eager: true });
 const svgs = Object.fromEntries(
-	Object.entries(glob).map(([key, value]) => [filename(key), value.default]),
+	Object.entries(glob).map(([key, value]) => [filename(key), value.default])
 );
 </script>
 
 <template>
 	<a
 		:style="iconStyle(index)" target="_blank"
-		class="absolute translate-center w-24 h-24"
+		class="absolute h-24 w-24 translate-center"
 		:class="{ 'flex flex-col justify-around items-center border-1 border-indigo rounded-md': textSquare }"
 	>
 		<slot />
-		<img v-if="(!textSquare && !icon.startsWith('i'))" :src="svgs[icon]" :title="title" class="w-full h-full">
-		<div v-else-if="!textSquare" :title="title" class="w-full h-full" :class="icon" />
+		<img v-if="(!textSquare && !icon.startsWith('i'))" :src="svgs[icon]" :title="title" class="h-full w-full">
+		<div v-else-if="!textSquare" :title="title" class="h-full w-full" :class="icon" />
 	</a>
 </template>
 

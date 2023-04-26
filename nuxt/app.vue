@@ -6,7 +6,7 @@ useHead({
 
 <template>
 	<NuxtLayout>
-		<NuxtPage class="col-span-full flex-center h-33rem my-12" />
+		<NuxtPage class="col-span-full my-12 h-33rem flex-center" />
 	</NuxtLayout>
 </template>
 

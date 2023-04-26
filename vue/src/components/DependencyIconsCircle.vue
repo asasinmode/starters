@@ -4,7 +4,7 @@ import iconUnoCSS from '~/assets/unocss.svg';
 </script>
 
 <template>
-	<div class="left-1/2 top-1/2 absolute translate-center">
+	<div class="absolute left-1/2 top-1/2 translate-center">
 		<div class="relative">
 			<DependencyIcon :index="0" href="https://router.vuejs.org/" title="vue router" icon="i-logos-vue" />
 			<DependencyIcon :index="1" href="https://github.com/unocss/unocss" title="unocss" :icon="iconUnoCSS" />

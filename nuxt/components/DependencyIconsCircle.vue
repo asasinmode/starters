@@ -1,5 +1,5 @@
 <template>
-	<div class="left-1/2 top-1/2 absolute translate-center">
+	<div class="absolute left-1/2 top-1/2 translate-center">
 		<div class="relative">
 			<DependencyIcon :index="1" href="https://github.com/unocss/unocss" title="unocss" icon="unocss" />
 			<DependencyIcon :index="2" href="https://eslint.org/" title="eslint" icon="i-logos-eslint" />

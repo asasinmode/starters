@@ -10,20 +10,27 @@
     "dev": "nuxt dev -o",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "lint": "eslint ."
   },
   "devDependencies": {
-    "@asasinmode/eslint-config": "^0.4.4",
-    "@iconify-json/logos": "^1.1.24",
+    "@asasinmode/eslint-config": "^0.4.5",
+    "@iconify-json/logos": "^1.1.25",
     "@iconify-json/mdi": "^1.1.50",
-    "@pinia/nuxt": "^0.4.8",
-    "@unocss/nuxt": "^0.51.4",
-    "@unocss/reset": "^0.51.4",
-    "eslint": "^8.38.0",
-    "nuxt": "^3.4.1",
-    "unocss": "^0.51.4"
+    "@pinia/nuxt": "^0.4.9",
+    "@unocss/eslint-config": "^0.51.8",
+    "@unocss/nuxt": "^0.51.8",
+    "@unocss/reset": "^0.51.8",
+    "eslint": "^8.39.0",
+    "nuxt": "^3.4.2",
+    "typescript": "^5.0.4",
+    "unocss": "^0.51.8"
   },
   "eslintConfig": {
-    "extends": "@asasinmode"
+    "extends": [
+      "@asasinmode",
+      "@unocss"
+    ],
+    "root": true
   }
 }

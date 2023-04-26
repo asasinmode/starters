@@ -1,8 +1,8 @@
 <template>
-	<ThemeToggle class="justify-self-end self-center" />
+	<ThemeToggle class="self-center justify-self-end" />
 	<a
 		href="https://github.com/asasinmode/starters"
 		title="github link" target="_blank"
-		class="i-mdi-github text-2rem text-link justify-self-start self-center"
+		class="i-mdi-github self-center justify-self-start text-2rem text-link"
 	/>
 </template>

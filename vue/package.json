@@ -9,29 +9,33 @@
     "build": "vite build",
     "dev": "vite --open",
     "preview": "vite preview",
-    "lint": "eslint .",
-    "lint:fix": "eslint . --fix"
+    "lint": "eslint ."
   },
   "dependencies": {
-    "pinia": "^2.0.34",
+    "pinia": "^2.0.35",
     "vue": "^3.2.47",
     "vue-router": "^4.1.6"
   },
   "devDependencies": {
-    "@asasinmode/eslint-config": "^0.4.4",
-    "@iconify-json/logos": "^1.1.24",
+    "@asasinmode/eslint-config": "^0.4.5",
+    "@iconify-json/logos": "^1.1.25",
     "@iconify-json/mdi": "^1.1.50",
-    "@types/node": "^18.15.11",
-    "@unocss/reset": "^0.51.4",
-    "@vitejs/plugin-vue": "4.1.0",
-    "eslint": "^8.38.0",
+    "@types/node": "^18.16.1",
+    "@unocss/eslint-config": "^0.51.8",
+    "@unocss/reset": "^0.51.8",
+    "@vitejs/plugin-vue": "^4.2.1",
+    "eslint": "^8.39.0",
     "typescript": "^5.0.4",
-    "unocss": "^0.51.4",
+    "unocss": "^0.51.8",
     "unplugin-auto-import": "^0.15.3",
     "unplugin-vue-components": "^0.24.1",
-    "vite": "^4.2.1"
+    "vite": "^4.3.3"
   },
   "eslintConfig": {
-    "extends": "@asasinmode"
+    "extends": [
+      "@asasinmode",
+      "@unocss"
+    ],
+    "root": true
   }
 }

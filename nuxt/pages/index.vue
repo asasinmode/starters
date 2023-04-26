@@ -10,7 +10,7 @@ const text = 'asasinmode';
 	<main>
 		<button
 			v-for="(letter, index) in text" :key="index"
-			class="hoverable:(bg-hex-121212 text-white) dark:hoverable:(bg-white text-hex-121212)"
+			class="dark:hoverable:(bg-white text-hex-121212) hoverable:(bg-hex-121212 text-white)"
 			:class="{ 'underline': clickedIndexes.includes(index), '!text-indigo': clickedIndexes.length === text.length }"
 			@click="handleLetterClick(index)"
 		>

@@ -22,12 +22,12 @@ function iconStyle(index: number): StyleValue {
 <template>
 	<a
 		:style="iconStyle(index)" target="_blank"
-		class="absolute translate-center w-24 h-24"
+		class="absolute h-24 w-24 translate-center"
 		:class="{ 'flex flex-col justify-around items-center border-1 border-indigo rounded-md': textSquare }"
 	>
 		<slot />
-		<img v-if="(!textSquare && !icon.startsWith('i'))" :src="icon" :title="title" class="w-full h-full">
-		<div v-else-if="!textSquare" :class="icon" :title="title" class="w-full h-full" />
+		<img v-if="(!textSquare && !icon.startsWith('i'))" :src="icon" :title="title" class="h-full w-full">
+		<div v-else-if="!textSquare" :class="icon" :title="title" class="h-full w-full" />
 	</a>
 </template>
 
