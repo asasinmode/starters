@@ -20,7 +20,6 @@
     "@asasinmode/eslint-config": "^0.4.5",
     "@iconify-json/logos": "^1.1.25",
     "@iconify-json/mdi": "^1.1.50",
-    "@types/node": "^18.16.1",
     "@unocss/eslint-config": "^0.51.8",
     "@unocss/reset": "^0.51.8",
     "@vitejs/plugin-vue": "^4.2.1",
