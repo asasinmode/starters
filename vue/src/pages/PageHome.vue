@@ -7,7 +7,7 @@ const text = 'asasinmode';
 </script>
 
 <template>
-	<main flex-center>
+	<main class="flex-center">
 		<button
 			v-for="(letter, index) in text" :key="index"
 			class="dark:hoverable:(bg-white text-hex-121212) hoverable:(bg-hex-121212 text-white)"
