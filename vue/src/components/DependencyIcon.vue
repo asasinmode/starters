@@ -10,7 +10,7 @@ withDefaults(defineProps<{
 
 function iconStyle(index: number): StyleValue {
 	const radius = 210;
-	const angle = 360 / 7 * (index - 2) * Math.PI / 180 + (Math.PI * 1 / 16);
+	const angle = 360 / 7 * (index - 2) * Math.PI / 180 + (Math.PI * 1 / 14);
 
 	return {
 		left: `${Math.cos(angle) * radius}px`,
