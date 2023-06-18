@@ -1,6 +1,15 @@
 export default defineNuxtConfig({
 	typescript: {
 		shim: false,
+		tsConfig: {
+			compilerOptions: {
+				moduleResolution: 'bundler',
+			},
+		},
+	},
+	experimental: {
+		inlineSSRStyles: false,
+		typedPages: true,
 	},
 	modules: [
 		'@unocss/nuxt',
@@ -10,9 +19,6 @@ export default defineNuxtConfig({
 		'@unocss/reset/tailwind.css',
 		'assets/index.css',
 	],
-	experimental: {
-		inlineSSRStyles: false,
-	},
 	app: {
 		head: {
 			link: [{ rel: 'icon', type: 'image/svg+xml', href: '/favicon.webp' }],
