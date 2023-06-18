@@ -11,8 +11,8 @@
   },
   "devDependencies": {
     "@asasinmode/eslint-config": "^0.4.5",
-    "eslint": "^8.39.0",
-    "typescript": "^5.0.4"
+    "eslint": "^8.43.0",
+    "typescript": "^5.1.3"
   },
   "eslintConfig": {
     "extends": "@asasinmode",

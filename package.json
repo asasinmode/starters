@@ -6,7 +6,7 @@
   "license": "MIT",
   "devDependencies": {
     "@asasinmode/eslint-config": "^0.4.5",
-    "eslint": "^8.39.0"
+    "eslint": "^8.43.0"
   },
   "eslintConfig": {
     "extends": "@asasinmode",
