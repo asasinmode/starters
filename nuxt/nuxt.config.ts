@@ -25,7 +25,7 @@ export default defineNuxtConfig({
 			meta: [{ name: 'description', content: 'asasinmode nuxt starter' }],
 			script: [{
 				children: `const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
-const setting = localStorage.getItem('color-schema') || 'auto'
+const setting = localStorage.getItem('color-scheme') || 'auto'
 if (setting === 'dark' || (prefersDark && setting !== 'light'))
 document.documentElement.classList.toggle('dark', true)`,
 			}],

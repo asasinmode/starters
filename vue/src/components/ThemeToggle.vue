@@ -6,7 +6,7 @@ const props = withDefaults(defineProps<{
 function toggleTheme() {
 	const value = document.documentElement.classList.contains('dark') ? 'light' : 'dark';
 
-	localStorage.setItem('color-schema', value);
+	localStorage.setItem('color-scheme', value);
 	document.documentElement.classList.toggle('dark');
 }
 
@@ -58,17 +58,11 @@ const style = computed(() => `--size: ${props.size}rem`);
 .themeToggle svg {
 	inline-size: 100%;
 	block-size: 100%;
-	stroke-linecap: round;
 }
 .themeToggle :is(.moon, .sun, .sunBeams) {
 	transform-origin: center center;
 }
-.themeToggle :is(.moon, .sun){
-	fill: currentColor;
-}
 .themeToggle .sunBeams {
-	stroke: currentColor;
-	stroke-width: 2px;
 	transition:
 		transform var(--duration) var(--ease-elastic-2),
 		opacity var(--duration) var(--ease);
@@ -98,7 +92,6 @@ const style = computed(() => `--size: ${props.size}rem`);
 }
 
 .themeToggle:is(:hover, :focus-visible){
-	outline: none;
 	opacity: 1;
 }
 </style>
