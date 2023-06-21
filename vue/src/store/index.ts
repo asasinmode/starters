@@ -1,6 +1,6 @@
 import { defineStore } from 'pinia';
 
-export const useDefaultStore = defineStore('index', () => {
+export const useIndexStore = defineStore('index', () => {
 	const clickedIndexes = ref<number[]>([]);
 
 	function handleLetterClick(index: number) {
