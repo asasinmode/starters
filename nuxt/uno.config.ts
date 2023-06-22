@@ -25,12 +25,23 @@ export default defineConfig({
 	shortcuts: [
 		{
 			'flex-center': 'flex justify-center items-center',
-			'text-link': 'op85 hoverable:(underline op100)',
 			'translate-center': 'translate-x--1/2 translate-y--1/2',
+			'text-link': 'op-75 hoverable:(underline op-100)',
 		},
-		[/^hoverable[:-](.+)$/, ([, c]) => `hover:${c} focus-visible:${c}`],
 	],
 	rules: [
 		[/^grid-area-(.+)$/, ([, c]) => ({ 'grid-area': c })],
+	],
+	variants: [
+		(matcher) => {
+			if (matcher.slice(0, 9) !== 'hoverable') {
+				return matcher;
+			}
+
+			return {
+				matcher: matcher.slice(10),
+				selector: s => `${s}:hover, ${s.slice(0, 5) === '.dark' ? '.dark ' : ''}${s}:focus-visible`,
+			};
+		},
 	],
 });

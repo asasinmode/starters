@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import { useDefaultStore } from '~/store/default';
+import { useIndexStore } from '~/store/index';
 
-const { clickedIndexes, handleLetterClick } = useDefaultStore();
+const { clickedIndexes, handleLetterClick } = useIndexStore();
 
 const text = 'asasinmode';
 </script>
