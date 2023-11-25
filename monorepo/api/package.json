@@ -1,12 +1,14 @@
 {
-  "name": "@local-package/api",
+  "name": "api",
   "type": "module",
   "version": "1.0.0",
   "main": "./src/index.ts",
   "scripts": {
     "dev": "tsx watch ./src/index.ts",
     "start": "node dist/index.js",
-    "build": "esbuild ./src/index.ts --bundle --platform=node --outdir=dist --format=esm"
+    "build": "esbuild ./src/index.ts --bundle --platform=node --outdir=dist --format=esm",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
   "dependencies": {
     "@local-package/example": "workspace:*"

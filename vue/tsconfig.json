@@ -27,7 +27,6 @@
     "strictNullChecks": true,
     "noUnusedLocals": true,
     /* Completeness */
-    "skipDefaultLibCheck": true,
     "skipLibCheck": true
   },
   "exclude": [
