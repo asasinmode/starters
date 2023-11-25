@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { filename } from 'pathe/utils';
 import type { StyleValue } from 'vue';
 
 withDefaults(defineProps<{
@@ -18,14 +19,12 @@ function iconStyle(index: number): StyleValue {
 	};
 }
 
-const svgs = {
-	pinia: '@/assets/pinia.svg',
-	unocss: '@/assets/unocss.svg',
-};
-// const glob = import.meta.glob('@/assets/*.svg', { eager: true });
-// const svgs = Object.fromEntries(
-// 	Object.entries(glob).map(([key, value]) => [filename(key), value.default])
-// );
+// @ts-expect-error glob is there
+const glob = import.meta.glob('@/assets/*.svg', { eager: true });
+const svgs = Object.fromEntries(
+	// @ts-expect-error value.default is an imported asset module
+	Object.entries(glob).map(([key, value]) => [filename(key), value.default])
+);
 </script>
 
 <template>
