@@ -1,8 +1,8 @@
 {
-  "extends": "../tsconfig.json",
-  "compilerOptions": {
-    "baseUrl": "./src",
-    "lib": ["ESNext", "DOM"],
-    "moduleResolution": "node"
-  }
+	"extends": "../tsconfig.json",
+	"compilerOptions": {
+		"lib": ["ESNext", "DOM"],
+		"baseUrl": "./src",
+		"moduleResolution": "node"
+	}
 }
