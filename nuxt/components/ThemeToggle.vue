@@ -15,12 +15,14 @@ const style = computed(() => `--size: ${props.size}rem`);
 
 <template>
 	<button
-		title="theme toggle" aria-live="polite"
-		class="themeToggle" :style="style"
+		title="theme toggle"
+		aria-live="polite"
+		class="themeToggle"
+		:style="style"
 		@click="toggleTheme"
 	>
 		<svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24">
-			<circle class="sun" cx="12" cy="12" r="6" mask="url(#moonMask)" />
+			<circle class="sun" fill="currentColor" cx="12" cy="12" r="6" mask="url(#moonMask)" />
 			<g class="sunBeams" stroke="currentColor">
 				<line x1="12" y1="1" x2="12" y2="3" />
 				<line x1="12" y1="21" x2="12" y2="23" />
@@ -66,6 +68,10 @@ const style = computed(() => `--size: ${props.size}rem`);
 	transition:
 		transform var(--duration) var(--ease-elastic-2),
 		opacity var(--duration) var(--ease);
+}
+.sunBeams line {
+	stroke-width: 2;
+	stroke-linecap: round;
 }
 .themeToggle .sun{
 	transition: transform var(--duration) var(--ease-elastic-1);

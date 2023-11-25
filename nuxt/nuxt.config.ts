@@ -1,14 +1,6 @@
 export default defineNuxtConfig({
-	typescript: {
-		shim: false,
-		tsConfig: {
-			compilerOptions: {
-				moduleResolution: 'bundler',
-			},
-		},
-	},
+	devtools: { enabled: true },
 	experimental: {
-		inlineSSRStyles: false,
 		typedPages: true,
 	},
 	modules: [
