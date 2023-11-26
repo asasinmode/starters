@@ -1,23 +1,23 @@
-import path from 'node:path';
+import { URL, fileURLToPath } from 'node:url';
 import { defineConfig } from 'vite';
-import Vue from '@vitejs/plugin-vue';
-import Components from 'unplugin-vue-components/vite';
-import AutoImport from 'unplugin-auto-import/vite';
-import Unocss from 'unocss/vite';
+import vue from '@vitejs/plugin-vue';
+import components from 'unplugin-vue-components/vite';
+import autoImport from 'unplugin-auto-import/vite';
+import unocss from 'unocss/vite';
 
 export default defineConfig({
 	resolve: {
 		alias: {
-			'~/': `${path.resolve(__dirname, 'src')}/`,
+			'~': fileURLToPath(new URL('./src', import.meta.url)),
 		},
 	},
 	plugins: [
-		Vue(),
-		Unocss(),
-		Components({
+		vue(),
+		unocss(),
+		components({
 			dts: './src/types/components.d.ts',
 		}),
-		AutoImport({
+		autoImport({
 			imports: [
 				'vue',
 				'vue-router',
