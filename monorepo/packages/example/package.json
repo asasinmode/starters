@@ -1,5 +1,5 @@
 {
 	"name": "@local-package/example",
 	"type": "module",
-	"main": "index.ts"
+	"main": "src/index.ts"
 }
